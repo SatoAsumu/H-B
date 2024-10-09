@@ -9,14 +9,17 @@ h1{
     font-size: 30px;
     text-align: center;
 }
-.nyu {
-    background-color: whitesmoke;
-    width: 10px;
-    height: 10px;
-    text-align: center;
-    display: block;
-    margin: 0px 300px;
-}
 #syu table th{
-    width: 300px;
+    width: 260px;
+}
+#nyu{
+    margin: auto;
+}
+#sen{
+    display: block;
+    background-color: black;
+}
+#syu table td{
+    width: 50px;
+    height: 20px;
 }
