@@ -140,6 +140,42 @@ function ketteibutton() {
         }
         kai = kai + 1
         modorubutton()
+    }else if (kai ==8){
+        document.getElementById("hasu").textContent = su;
+        if (su == random){
+        document.getElementById("hahit").innerHTML = "1"
+        document.getElementById("habro").innerHTML = "1"
+        seikai()
+        }else{
+        document.getElementById("hahit").innerHTML = "0"
+        document.getElementById("habro").innerHTML = "0"
+        }
+        kai = kai + 1
+        modorubutton()
+    }else if (kai == 9){
+        document.getElementById("kyusu").textContent = su;
+        if (su == random){
+        document.getElementById("kyuhit").innerHTML = "1"
+        document.getElementById("kyubro").innerHTML = "1"
+        seikai()
+        }else{
+        document.getElementById("kyuhit").innerHTML = "0"
+        document.getElementById("kyubro").innerHTML = "0"
+        }
+        kai = kai + 1
+        modorubutton()
+    }else if (kai == 10){
+        document.getElementById("zyusu").textContent = su;
+        if (su == random){
+        document.getElementById("zyuhit").innerHTML = "1"
+        document.getElementById("zyubro").innerHTML = "1"
+        seikai()
+        }else{
+        document.getElementById("zyuhit").innerHTML = "0"
+        document.getElementById("zyubro").innerHTML = "0"
+        }
+        kai = kai + 1
+        modorubutton()
     }
 }
 function seikai(){

@@ -4,9 +4,92 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>H&B</title>
-        <link rel="stylesheet" href="se.css">
+        <link rel="stylesheet" href="two.css">
+        <script src="two.js"></script>
     </head>
-    <body>
+    <body background="haikei.png">   
         <h1>2桁</h1>
+        <div id="syu">
+            <table width="728" height="565" border="1">
+            <tr>
+                <th>推理した数字</th>
+                <td>&nbsp;&nbsp;&nbsp;H&nbsp;&nbsp;&nbsp;</td>
+                <td>&nbsp;&nbsp;&nbsp;B&nbsp;&nbsp;&nbsp;</td>
+            </tr>
+            <tr>
+                <th><div id="isu">　　　　</div></th>
+                <td><div id="ihit">　　　</div></td>
+                <td><div id="ibro">　　　</div></td>
+                <th colspan="4"><div id="sare">選択された数字</div></th>
+            </tr>
+            <tr>
+                <th><div id="nisu">　　　　</div></th>
+                <td><div id="nihit">　　　</div></td>
+                <td><div id="nibro">　　　</div></td>
+            </tr>
+            <tr>
+                <th><div id="sasu">　　　　</div></th>
+                <td><div id="sahit">　　　</div></td>
+                <td><div id="sabro">　　　</div></td>
+                <th rowspan="3"><div id="sen"></div></th>
+            </tr>
+            <tr>
+                <th><div id="yosu">　　　　</div></th>
+                <td><div id="yohit">　　　</div></td>
+                <td><div id="yobro">　　　</div></td>
+            </tr>
+            <tr>
+                <th><div id="gosu">　　　　</div></th>
+                <td><div id="gohit">　　　</div></td>
+                <td><div id="gobro">　　　</div></td>
+            </tr>
+            <tr>
+                <th><div id="rosu">　　　　</div></th>
+                <td><div id="rohit">　　　</div></td>
+                <td><div id="robro">　　　</div></td>
+            </tr>
+            <tr>
+                <th><div id="nasu">　　　　</div></th>
+                <td><div id="nahit">　　　</div></td>
+                <td><div id="nabro">　　　</div></td>
+                <th rowspan="3"><div id="nisen"></div></th>
+            </tr>
+            <tr>
+                <th><div id="haasu">　　　　</div></th>
+                <td><div id="haahit">　　　</div></td>
+                <td><div id="haabro">　　　</div></td>
+            </tr>
+            <tr>
+                <th><div id="kyusu">　　　　</div></th>
+                <td><div id="kyuhit">　　　</div></td>
+                <td><div id="kyubro">　　　</div></td>
+            </tr>
+            <tr>
+                <th><div id="zyusu">　　　　</div></th>
+                <td><div id="zyuhit">　　　</div></td>
+                <td><div id="zyubro">　　　</div></td>
+            </tr>
+            </table>
+        </div>
+        <table id="nyu">
+        <tr>
+            <td><button onclick="zerobutton()"><img src="zero.png" width="100" height="100"></button></td>
+            <td><button onclick="onebutton()"><img src="one.png" width="100" height="100"></button></td>
+            <td><button onclick="twobutton()"><img src="two.png" width="100" height="100"></button></td>
+            <td><button onclick="threebutton()"><img src="three.png" width="100" height="100"></button></td>
+            <td><button onclick="fourbutton()"><img src="four.png" width="100" height="100"></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="fivebutton()"><img src="five.png" width="100" height="100"></button></td>
+            <td><button onclick="sixbutton()"><img src="six.png" width="100" height="100"></button></td>
+            <td><button onclick="sevenbutton()"><img src="seven.png" width="100" height="100"></button></td>
+            <td><button onclick="eightbutton()"><img src="eight.png" width="100" height="100"></button></td>
+            <td><button onclick="ninebutton()"><img src="nine.png" width="100" height="100"></button></td>
+        </tr>
+        <tr>
+            <td><button onclick="modorubutton()"><img src="modoru.png" width="100" height="100"></button></td>
+            <td colspan="2"><div id="ke"></div></td>
+        </tr>
+        </table>
     </body>
     </html>
